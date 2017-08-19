@@ -6,9 +6,9 @@ import shutil
 from functools import wraps
 
 from flask import _request_ctx_stack, Blueprint, current_app, request
-from flask.ext.principal import identity_changed, Identity
-from flask.ext.restful import Api, Resource, abort
-from flask.ext.security import current_user
+from flask_principal import identity_changed, Identity
+from flask_restful import Api, Resource, abort
+from flask_security import current_user
 
 from ..exceptions import SPKParseError, SPKSignError
 from ..ext import db

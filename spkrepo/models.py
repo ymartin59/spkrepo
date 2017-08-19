@@ -5,8 +5,8 @@ import shutil
 from datetime import datetime, timedelta
 
 from flask import current_app
-from flask.ext.security import UserMixin, RoleMixin, SQLAlchemyUserDatastore
-from flask.ext.sqlalchemy import before_models_committed, models_committed
+from flask_security import UserMixin, RoleMixin, SQLAlchemyUserDatastore
+from flask_sqlalchemy import before_models_committed, models_committed
 from sqlalchemy.ext.hybrid import hybrid_property
 from sqlalchemy.orm.collections import attribute_mapped_collection
 

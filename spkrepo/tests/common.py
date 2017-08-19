@@ -20,7 +20,7 @@ import factory.alchemy
 import faker
 from factory.alchemy import SQLAlchemyModelFactory
 from flask import url_for, current_app
-from flask.ext.testing import TestCase
+from flask_testing import TestCase
 
 from spkrepo import create_app
 from spkrepo.ext import db

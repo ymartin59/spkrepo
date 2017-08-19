@@ -16,7 +16,8 @@ install_requires = ['Flask',
                     'python-gnupg', 'requests',
                     'Flask-Migrate', 'alembic>=0.7.0',
                     'Flask-Script',
-                    'Flask-DebugToolbar']
+                    'Flask-DebugToolbar',
+                    'bcrypt']
 
 dev_requires = ['sphinx', 'sphinx_rtd_theme']
 
